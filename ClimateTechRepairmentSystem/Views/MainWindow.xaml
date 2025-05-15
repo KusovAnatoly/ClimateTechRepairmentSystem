@@ -5,13 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ClimateTechRepairmentSystem"
         mc:Ignorable="d"
-        Title="Учет заявок на ремонт климатического оборудования"
+        Title="{Binding ElementName=contentFrame, Path=Content.Title}"
         MinHeight="450" MinWidth="800">
     
     <Grid>
-        
-        
-        
+
+        <Frame x:Name="contentFrame"/>
+
     </Grid>
     
 </Window>
